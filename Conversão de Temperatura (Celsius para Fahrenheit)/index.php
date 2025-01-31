@@ -13,10 +13,12 @@
 
 $celsius = 30 ;
 
-$farenheit = ($celsius * 9 / 5) + 32;
+const valor = 9 / 5 ;
+
+$conversão = ($celsius * valor) + 32;
 
 echo "temperatura em C°: $celsius <br>";
-echo "temperatura em Farenheit: $farenheit";
+echo "temperatura em Farenheit: $conversão";
 
 
 
